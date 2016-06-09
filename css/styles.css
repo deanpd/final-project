@@ -1,2 +1,119 @@
+/* fonts
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Vollkorn', serif;
+*/
+
+/* colors
+Turquoise rgb(14, 133, 143);
+Background rgb(242, 242, 242);
+Gray rgb(51, 51, 51);
+*/
+
 * { box-sizing: border-box; }
 
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+/*header, .intro, .work, .skills, .about-me, .contact {
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 80%;
+}*/
+
+header nav {
+  text-align: center;
+}
+
+header nav ul {
+  display: inline-block;
+}
+
+header li {
+  float: left;
+  padding: 1.5rem;
+  list-style: none;
+}
+
+h1 {
+  clear: both;
+  font-family: 'Vollkorn', serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(14, 133, 143);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bodycopy {
+  font-weight: normal;
+  font-size: 1.75rem;
+  font-family: 'Vollkorn', serif;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  clear: both;
+}
+
+/*Tabs*/
+.tab-panels {
+  padding: 1rem;
+  margin: 0 .75rem 0 .75rem;
+}
+
+.tab-panels ul {
+  margin: 0;
+  padding: 0 0 .5rem 0;	 
+}
+
+.tab-panels img {
+  padding: .25rem;
+  border-radius: .75rem;
+}
+
+.tab-panels ul li {
+  list-style-type: none;
+  display: inline-block;
+  background: rgb(117, 198, 204);
+  padding: .25rem .5rem;
+  border-radius: .25rem .25rem .25rem .25rem;
+  color: rgb(51, 51, 51);
+  font-weight: 200;
+}
+
+.tab-panels .tabs li.active {
+  color: rgb(255, 255, 255);
+  background: rgb(14, 133, 143);
+}
+
+.tab-panels ul li:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(14, 133, 143);
+}
+
+.tab-panels ul li:active {
+  color: rgb(255, 255, 255);
+  background: rgb(171, 176, 171);
+}
+
+.tab-panels .panel {
+  display: none;
+  background: rgb(214, 220, 214);
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.tab-panels .panel.active {
+  display: block;
+}

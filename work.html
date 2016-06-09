@@ -11,24 +11,25 @@
 <body>
   <header>
     <!-- Main Nav -->
-    <nav>
+    <nav id="navigation" role="navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="work.html">Work</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="about-me.html">About Me</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
   
+  <h1>My Work</h1>
+  
   <!-- Work Gallery -->
-  <div id="galleryContent">
-    <h1>My Work</h1>
-    
+  <div id="mainContent">
+  
     <!-- Tabs -->
-    <div class="tabs">
-      <ul class="tabs-list">
+    <div class="tab-panels">
+      <ul class="tabs">
         <li rel="branding" class="active">Branding</li>
         <li rel="print">Print</li>
         <li rel="packaging">Packaging</li>
@@ -42,21 +43,19 @@
       </div>
       
       <!-- Print -->
-      <div id="print" class="panel active">
+      <div id="print" class="panel">
         <img src="img/print/print-01-thumb.jpg">
         <img src="img/print/print-02-thumb.jpg">
         <img src="img/print/print-03-thumb.jpg">
       </div>
       
       <!-- Packaging -->
-      <div id="packaging" class="panel active">
+      <div id="packaging" class="panel">
         <img src="img/packaging/packaging-01-thumb.jpg">
         <img src="img/packaging/packaging-02-thumb.jpg">
         <img src="img/packaging/packaging-03-thumb.jpg">
       </div>
-      
     </div>
-  
   </div>
   
   <!-- Copyright Info -->
@@ -64,7 +63,6 @@
     <p>&copy; 2016 Dean Davidson</p>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </head>
